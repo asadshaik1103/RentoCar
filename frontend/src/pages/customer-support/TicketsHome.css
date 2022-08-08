@@ -1,0 +1,34 @@
+
+div .tickets-home-container {
+    margin: 10px;
+}
+
+.first {
+    width: 25%;
+    display: inline-block;
+    /* background-color: green; */
+}
+
+.second {
+    width: 20%;
+    display: inline-block;
+    /* background-color: blue; */
+}
+
+.third {
+    width: 25%;
+    display: inline-block;
+}
+
+.third button{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+@media screen and (max-width: 1080px) {
+
+    .first,
+    .second,
+    .third {
+        width: 70%;
+    }
+}
